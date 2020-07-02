@@ -24,7 +24,7 @@ import java.util.concurrent.ConcurrentHashMap;
 public class RandomView extends View {
 
     private static final int MAX_COUNT_DOWN = 2500;
-    private static final int INTERVAL = 50;
+    private static final int INTERVAL = 30;
     private static final int LOGO_SIZE = 375;
 
     private CountDownTimer countDownTimer;
@@ -55,7 +55,7 @@ public class RandomView extends View {
     }
 
     private void init() {
-        this.bitmapDefault = drawableToBitmap(getResources().getDrawable(R.drawable.bagua));
+        this.bitmapDefault = drawableToBitmap(getResources().getDrawable(R.drawable.corona));
         this.bitmapQuestion = drawableToBitmap(getResources().getDrawable(R.drawable.question));
         this.bitmapIntruder = drawableToBitmap(getResources().getDrawable(R.drawable.schwein));
 

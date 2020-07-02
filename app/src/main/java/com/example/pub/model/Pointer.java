@@ -15,8 +15,6 @@ public class Pointer {
 
     public Pointer(Bitmap bitmapToBeDrawn, Bitmap bitmapQuestion, Bitmap bitmapIntruder) {
         point = new Paint();
-        point.setAntiAlias(true);
-        point.setStyle(Paint.Style.FILL_AND_STROKE);
 
         this.bitmapInitial = bitmapToBeDrawn;
         this.bitmapQuestion = bitmapQuestion;
